@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 0 0% 100%;
+    --foreground: 201 96% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 201 96% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 201 96% 12%;
+    --primary: 201 96% 12%;
+    --primary-foreground: 199 89% 98%;
+    --secondary: 199 89% 96%;
+    --secondary-foreground: 201 96% 12%;
+    --muted: 199 89% 96%;
+    --muted-foreground: 201 40% 40%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 201 96% 12%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 199 30% 90%;
+    --input: 199 30% 90%;
+    --ring: 199 89% 48%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee 35s linear infinite reverse;
+}
+
+.section-padding {
+  @apply py-12 md:py-16;
+}
+
+.glass-card {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 0% 0%, hsla(199, 89%, 48%, 0.05), transparent 40%),
+              radial-gradient(circle at 100% 100%, hsla(201, 96%, 12%, 0.05), transparent 40%);
+}

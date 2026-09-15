@@ -1,0 +1,172 @@
+{
+  "placeholderImages": [
+    {
+      "id": "company-logo",
+      "description": "indonesia technology.corp Official Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Desain%20tanpa%20judul%20(3).png?alt=media&token=a5ec83d4-cf85-4941-b0ac-92efcb95d2da",
+      "imageHint": "modern tech logo abstract v"
+    },
+    {
+      "id": "hero-bg-1",
+      "description": "Dahua Security Technology Background",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/dahuabg.png?alt=media&token=2c3d8207-b7ef-44fc-8f3c-4cde74c5e50c",
+      "imageHint": "dahua cctv"
+    },
+    {
+      "id": "hero-bg-2",
+      "description": "Tiandy Security Technology Background",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/tiandybg.png?alt=media&token=ab8a15ce-7fa1-4230-96b4-fbc0b2ec6f90",
+      "imageHint": "tiandy security"
+    },
+    {
+      "id": "hero-bg-3",
+      "description": "Imou Smart Home Security Background",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/imoubg.png?alt=media&token=ed36c3d2-fffe-438d-8db8-6eef9256f760",
+      "imageHint": "imou camera"
+    },
+    {
+      "id": "hero-bg-4",
+      "description": "Hikvision Surveillance Solution Background",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/hikvisionbg.png?alt=media&token=c473036f-09bb-45f4-b0be-e8d94e7c0b97",
+      "imageHint": "hikvision surveillance"
+    },
+    {
+      "id": "brand-dahua",
+      "description": "Dahua Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/LOGO_dahua.png?alt=media&token=d2e5d6ea-16b8-4879-9b61-4f210dcadba0",
+      "imageHint": "dahua logo"
+    },
+    {
+      "id": "brand-hikvision",
+      "description": "Hikvision Official Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Hikvision-Logo.wine.png?alt=media&token=dc6b35ae-a324-4e51-a67e-908249668210",
+      "imageHint": "hikvision logo"
+    },
+    {
+      "id": "brand-hilook",
+      "description": "HiLook Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Logo-HILOOK.jpg?alt=media&token=18605678-9647-4c5a-ad71-e88273ee5023",
+      "imageHint": "hilook logo"
+    },
+    {
+      "id": "brand-imou",
+      "description": "Imou Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/imou-logo-png_seeklogo-449578.png?alt=media&token=4d64ae40-1e83-40a4-b7c5-6bb948ca0404",
+      "imageHint": "imou logo"
+    },
+    {
+      "id": "brand-uniview",
+      "description": "Uniview Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/uniview%20logo.png?alt=media&token=a4b0bb71-7dc3-48ae-88e3-e3684442040b",
+      "imageHint": "uniview logo"
+    },
+    {
+      "id": "partner-daihatsu",
+      "description": "Daihatsu Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Daihatsu-Logo.wine.png?alt=media&token=9a9a4cce-0824-4c6e-ba46-31b766ffc604",
+      "imageHint": "daihatsu logo"
+    },
+    {
+      "id": "partner-adhipersadagedung",
+      "description": "Adhi Persada Gedung Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/adhi%20persada%20gedunng.png?alt=media&token=f4d4b610-d624-46c7-80fc-57f7d0bb822d",
+      "imageHint": "adhi persada logo"
+    },
+    {
+      "id": "partner-mandiri",
+      "description": "Bank Mandiri Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/bank-mandiri-logo-png_seeklogo-16290.png?alt=media&token=510f3c3a-284d-46d6-921d-249028bf59d6",
+      "imageHint": "mandiri logo"
+    },
+    {
+      "id": "partner-bogordental",
+      "description": "Bogor Dental Center Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/bogor%20dental%20center%20logo.jpg?alt=media&token=b48165e2-b819-4b30-be59-1e21dad3c2c8",
+      "imageHint": "dental logo"
+    },
+    {
+      "id": "partner-hikjateng",
+      "description": "HIK Jateng Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/cropped-cropped-LOGO-HIK-JATENG-1-300x111.png?alt=media&token=33b8d527-2f90-45ee-8826-85582df34079",
+      "imageHint": "hik logo"
+    },
+    {
+      "id": "partner-indocement",
+      "description": "Indocement Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/indocement.jpg?alt=media&token=64b2cc66-6614-48d5-8545-d94c0a951294",
+      "imageHint": "indocement logo"
+    },
+    {
+      "id": "partner-kejaksaan",
+      "description": "Kejaksaan Agung Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/kejaksaan%20agung.jpg?alt=media&token=0105a5c8-48a4-47e2-90fd-11fe165eff6a",
+      "imageHint": "kejaksaan logo"
+    },
+    {
+      "id": "partner-askrindo",
+      "description": "Askrindo IFG Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/logo-askrindo-ifg.png?alt=media&token=3b873b93-5e1b-408f-97ad-fc885198a647",
+      "imageHint": "askrindo logo"
+    },
+    {
+      "id": "partner-bprsyariah",
+      "description": "BPR Syariah Sahabat UMKM Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/logo-bpr-syariah-sahabat%20umkmjpg.jpg?alt=media&token=ce31a801-32d2-4cd7-8ce3-1bcbd167bab2",
+      "imageHint": "bpr logo"
+    },
+    {
+      "id": "partner-kpknl",
+      "description": "KPKNL Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/logo-kpknl.png?alt=media&token=4812f094-3184-4cf9-b470-8c5b4a1a5a82",
+      "imageHint": "kpknl logo"
+    },
+    {
+      "id": "partner-telkomsigma",
+      "description": "Telkomsigma Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/logo-telkomsigma-l-min.jpg?alt=media&token=c0b44b69-f4b2-425f-a9ed-17651f8a6cdc",
+      "imageHint": "telkomsigma logo"
+    },
+    {
+      "id": "partner-megabaja",
+      "description": "Mega Baja Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/mega%20baja.jpg?alt=media&token=b03216dc-45ee-4d79-932b-42adb969c043",
+      "imageHint": "mega baja logo"
+    },
+    {
+      "id": "partner-polrestabogor",
+      "description": "Polresta Bogor Kota Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/polresta%20bogor%20kota.png?alt=media&token=1103f7bd-1df8-42e0-a2eb-f32b1372a693",
+      "imageHint": "polisi logo"
+    },
+    {
+      "id": "partner-obayashi",
+      "description": "PT Jaya Obayashi Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/pt%20jaya%20obayashi.png?alt=media&token=3f62d472-f9b5-4d16-ac1b-0ddd325c0dfe",
+      "imageHint": "obayashi logo"
+    },
+    {
+      "id": "partner-yogya",
+      "description": "Yogya Group Logo",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/yogya%20gruop.png?alt=media&token=5ec2d917-35fb-41a8-a323-9738d17fd8a4",
+      "imageHint": "yogya logo"
+    },
+    {
+      "id": "access-control-main",
+      "description": "Professional Access Control Solution",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Digital%20Surveillance%20is%20a%20leader%20when%20it%20comes%20to%E2%80%A6.jpg?alt=media&token=ebf01c17-17ad-41c9-b228-95444b58b830",
+      "imageHint": "access control"
+    },
+    {
+      "id": "networking-main",
+      "description": "Advanced Networking Infrastructure",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Evolu%C3%A7%C3%A3o%20das%20Redes%20nas%20Telecomunica%C3%A7%C3%B5es%20%E2%80%93%E2%80%A6.jpg?alt=media&token=0ca6cf31-d654-4b20-b207-69f12e2777bd",
+      "imageHint": "network servers"
+    },
+    {
+      "id": "digital-signage-main",
+      "description": "Smart Digital Signage Assistant",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/%F0%9F%9A%80%20Introducing%20the%20Smart%20Signage%20Assistant%20(SSA)%20%E2%80%93%E2%80%A6.jpg?alt=media&token=e5df959a-3c2f-4291-a223-ed4226bf8a39",
+      "imageHint": "digital signage"
+    }
+  ]
+}
