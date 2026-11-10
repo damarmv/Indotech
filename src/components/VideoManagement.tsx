@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Video, Search, Cloud, LayoutGrid } from 'lucide-react';
 
 export default function VideoManagement() {
-  const imageUrl = "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/manajemen%20video.jpg?alt=media&token=bdef4651-f0d1-42ff-bb0b-1c5ca0bd601d";
+  const imageUrl = "/Indotech/images/control-center.svg";
 
   const features = [
     { icon: Search, label: "Smart Search", color: "text-blue-500", bgColor: "bg-blue-50" },

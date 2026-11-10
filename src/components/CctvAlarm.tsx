@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Shield, BellRing, Eye, Smartphone } from 'lucide-react';
 
 export default function CctvAlarm() {
-  const imageUrl = "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/cctv.jpeg?alt=media&token=291f6707-4f2f-4b5a-9d93-a8a43edbff7c";
+  const imageUrl = "/Indotech/images/cctv-camera.jpg";
 
   const features = [
     { 

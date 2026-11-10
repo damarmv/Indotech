@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Info, Monitor, Headset, Handshake, Sparkles } from 'lucide-react';
 
 export default function InteractiveKiosk() {
-  const imageUrl = "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/kiosk.jpg?alt=media&token=446dff9b-4c71-4278-802d-0ba9fc57fa26";
+  const imageUrl = "/Indotech/images/interactive-display.jpg";
 
   const categories = [
     { label: "Info Kiosk", icon: Info, color: "text-blue-500", bgColor: "bg-blue-50" },

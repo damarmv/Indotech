@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Code2, Smartphone, Cpu, Cloud, Terminal } from 'lucide-react';
 
 export default function SoftwareApplication() {
-  const imageUrl = "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Coding%20background.jpg?alt=media&token=f18a2005-48e2-429a-8a44-4ba8324f447c";
+  const imageUrl = "/Indotech/images/software-workspace.svg";
 
   const apps = [
     { icon: Code2, label: "Custom Code", color: "text-blue-500", bgColor: "bg-blue-50" },

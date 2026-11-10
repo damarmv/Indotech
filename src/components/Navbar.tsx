@@ -2,16 +2,13 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import { Menu, ShieldCheck, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useWhatsApp } from '@/hooks/use-whatsapp';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const logoImage = PlaceHolderImages.find(img => img.id === 'company-logo');
   const whatsappLink = useWhatsApp();
 
   useEffect(() => {
@@ -33,17 +30,8 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 bg-white border-b border-black/5 shadow-sm`}>
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 md:w-12 md:h-12 group-hover:scale-110 transition-transform">
-            {logoImage && (
-              <Image 
-                src={logoImage.imageUrl} 
-                alt="Logo indonesia technology.corp" 
-                fill 
-                className="object-contain"
-                priority
-                data-ai-hint="tech logo"
-              />
-            )}
+          <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-primary text-accent flex items-center justify-center group-hover:scale-110 transition-transform">
+            <ShieldCheck className="w-6 h-6 md:w-7 md:h-7" aria-hidden="true" />
           </div>
           <div className="flex flex-col">
             <span className="font-headline font-bold text-base md:text-lg tracking-tight text-primary uppercase leading-none">

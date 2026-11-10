@@ -1,9 +1,7 @@
 "use client"
 
 import Link from 'next/link';
-import { Smartphone, Mail, MapPin, Clock, Instagram } from 'lucide-react';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Smartphone, Mail, MapPin, Clock, Instagram, ShieldCheck } from 'lucide-react';
 import { useWhatsApp } from '@/hooks/use-whatsapp';
 
 // Custom TikTok Icon
@@ -21,7 +19,6 @@ const TikTokIcon = ({ className }: { className?: string }) => (
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const logoImage = PlaceHolderImages.find(img => img.id === 'company-logo');
   const whatsappLink = useWhatsApp();
 
   const socialLinks = [
@@ -35,16 +32,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-4 group">
-              <div className="relative w-14 h-14 transition-transform group-hover:scale-110">
-                {logoImage && (
-                  <Image 
-                    src={logoImage.imageUrl} 
-                    alt="Logo indonesia technology.corp" 
-                    fill 
-                    className="object-contain"
-                    data-ai-hint="tech logo"
-                  />
-                )}
+              <div className="w-14 h-14 rounded-2xl bg-accent/10 text-accent flex items-center justify-center transition-transform group-hover:scale-110">
+                <ShieldCheck className="w-8 h-8" aria-hidden="true" />
               </div>
               <div className="flex flex-col">
                 <span className="font-headline font-bold text-xl tracking-tight text-white uppercase leading-none">

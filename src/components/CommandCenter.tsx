@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Headphones, Network, Cpu, Monitor, Users, Activity } from 'lucide-react';
 
 export default function CommandCenter() {
-  const imageUrl = "https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/command%20center%20room.jpg?alt=media&token=db81bf15-7e2f-4c5e-93c3-dcf0e5cef309";
+  const imageUrl = "/Indotech/images/control-center.svg";
 
   const systems = [
     { label: "Audio Systems", icon: Headphones, color: "text-blue-500", bgColor: "bg-blue-50" },

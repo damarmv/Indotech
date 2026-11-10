@@ -2,7 +2,14 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const siteUrl = 'https://damarmv.github.io/Indotech';
+const previewImage = `${siteUrl}/images/cctv-camera.jpg`;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(`${siteUrl}/`),
+  alternates: {
+    canonical: `${siteUrl}/`,
+  },
   title: {
     default: 'indonesia technology.corp - Solusi CCTV & Sistem Keamanan Bogor Jabodetabek',
     template: '%s | indonesia technology.corp',
@@ -20,16 +27,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'id_ID',
-    url: 'https://indonesiatechnology.id',
+    url: `${siteUrl}/`,
     siteName: 'indonesia technology.corp',
     title: 'Solusi CCTV & Sistem Keamanan Terintegrasi Profesional - indonesia technology.corp',
     description: 'Lindungi aset Anda dengan teknologi keamanan mutakhir. Spesialis instalasi CCTV, Alarm, dan Jaringan terbaik di Bogor dan Jabodetabek.',
     images: [
       {
-        url: 'https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Desain%20tanpa%20judul%20(3).png?alt=media&token=a5ec83d4-cf85-4941-b0ac-92efcb95d2da',
+        url: previewImage,
         width: 1200,
         height: 630,
-        alt: 'indonesia technology.corp Logo',
+        alt: 'CCTV security system installation',
       },
     ],
   },
@@ -37,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'indonesia technology.corp - Solusi CCTV & Security System',
     description: 'Solusi sistem keamanan dan teknologi terintegrasi profesional di Bogor & Jabodetabek.',
-    images: ['https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Desain%20tanpa%20judul%20(3).png?alt=media&token=a5ec83d4-cf85-4941-b0ac-92efcb95d2da'],
+    images: [previewImage],
   },
   robots: {
     index: true,
@@ -61,9 +68,9 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'indonesia technology.corp',
-    image: 'https://firebasestorage.googleapis.com/v0/b/studio-2175880406-bdd33.firebasestorage.app/o/Desain%20tanpa%20judul%20(3).png?alt=media&token=a5ec83d4-cf85-4941-b0ac-92efcb95d2da',
-    '@id': 'https://indonesiatechnology.id',
-    url: 'https://indonesiatechnology.id',
+    image: previewImage,
+    '@id': `${siteUrl}/#business`,
+    url: `${siteUrl}/`,
     telephone: '+6283190433681',
     address: {
       '@type': 'PostalAddress',
