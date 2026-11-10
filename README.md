@@ -11,7 +11,7 @@ npm run dev
 
 ## GitHub Pages
 
-The production build creates a static site in `out/`. The GitHub Actions workflow in `.github/workflows/deploy.yml` builds and publishes that folder when changes are pushed to `main`.
+The production build creates a static site in `out/`. GitHub Pages publishes the contents of the `gh-pages` branch. To publish an update, build the site and replace the contents of `gh-pages` with the contents of `out/`.
 
 The site URL is <https://indotechbangga.com/>.
 
