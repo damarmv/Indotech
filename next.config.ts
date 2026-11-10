@@ -1,8 +1,10 @@
-
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // GitHub Pages serves this repository as a project site.
+  output: 'export',
+  basePath: '/Indotech',
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -10,6 +12,8 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    // Static exports cannot use Next.js's runtime image optimization API.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -37,8 +41,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Tambahkan konfigurasi output untuk stabilitas App Hosting
-  output: 'standalone',
 };
 
 export default nextConfig;
