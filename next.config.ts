@@ -1,9 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // GitHub Pages serves this repository as a project site.
+  // GitHub Pages serves this custom domain from the site root.
   output: 'export',
-  basePath: '/Indotech',
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,

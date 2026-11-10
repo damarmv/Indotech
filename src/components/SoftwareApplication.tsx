@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Code2, Smartphone, Cpu, Cloud, Terminal } from 'lucide-react';
 
 export default function SoftwareApplication() {
-  const imageUrl = "/Indotech/images/software-workspace.svg";
+  const imageUrl = "/images/software-workspace.svg";
 
   const apps = [
     { icon: Code2, label: "Custom Code", color: "text-blue-500", bgColor: "bg-blue-50" },

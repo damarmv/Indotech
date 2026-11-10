@@ -13,7 +13,7 @@ npm run dev
 
 The production build creates a static site in `out/`. The GitHub Actions workflow in `.github/workflows/deploy.yml` builds and publishes that folder when changes are pushed to `main`.
 
-The project site URL is <https://damarmv.github.io/Indotech/>.
+The site URL is <https://indotechbangga.com/>.
 
 ## Images
 

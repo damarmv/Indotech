@@ -3,43 +3,43 @@
     {
       "id": "hero-bg-1",
       "description": "CCTV camera mounted on a building",
-      "imageUrl": "/Indotech/images/cctv-camera.jpg",
+      "imageUrl": "/images/cctv-camera.jpg",
       "imageHint": "cctv security camera"
     },
     {
       "id": "hero-bg-2",
       "description": "Outdoor security camera installation",
-      "imageUrl": "/Indotech/images/cctv-building.jpg",
+      "imageUrl": "/images/cctv-building.jpg",
       "imageHint": "outdoor cctv camera"
     },
     {
       "id": "hero-bg-3",
       "description": "Network and server rack infrastructure",
-      "imageUrl": "/Indotech/images/server-rack.jpg",
+      "imageUrl": "/images/server-rack.jpg",
       "imageHint": "server rack network infrastructure"
     },
     {
       "id": "hero-bg-4",
       "description": "Security monitoring control center",
-      "imageUrl": "/Indotech/images/control-center.svg",
+      "imageUrl": "/images/control-center.svg",
       "imageHint": "security control center dashboards"
     },
     {
       "id": "access-control-main",
       "description": "Biometric access control reader beside a secure door",
-      "imageUrl": "/Indotech/images/access-control.svg",
+      "imageUrl": "/images/access-control.svg",
       "imageHint": "biometric access control door reader"
     },
     {
       "id": "networking-main",
       "description": "Server rack for business network infrastructure",
-      "imageUrl": "/Indotech/images/server-rack.jpg",
+      "imageUrl": "/images/server-rack.jpg",
       "imageHint": "network server rack"
     },
     {
       "id": "digital-signage-main",
       "description": "Interactive touchscreen display",
-      "imageUrl": "/Indotech/images/interactive-display.jpg",
+      "imageUrl": "/images/interactive-display.jpg",
       "imageHint": "interactive digital display"
     }
   ]

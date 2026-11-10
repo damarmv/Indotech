@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Info, Monitor, Headset, Handshake, Sparkles } from 'lucide-react';
 
 export default function InteractiveKiosk() {
-  const imageUrl = "/Indotech/images/interactive-display.jpg";
+  const imageUrl = "/images/interactive-display.jpg";
 
   const categories = [
     { label: "Info Kiosk", icon: Info, color: "text-blue-500", bgColor: "bg-blue-50" },

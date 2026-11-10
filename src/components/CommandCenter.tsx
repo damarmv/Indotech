@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Headphones, Network, Cpu, Monitor, Users, Activity } from 'lucide-react';
 
 export default function CommandCenter() {
-  const imageUrl = "/Indotech/images/control-center.svg";
+  const imageUrl = "/images/control-center.svg";
 
   const systems = [
     { label: "Audio Systems", icon: Headphones, color: "text-blue-500", bgColor: "bg-blue-50" },

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Video, Search, Cloud, LayoutGrid } from 'lucide-react';
 
 export default function VideoManagement() {
-  const imageUrl = "/Indotech/images/control-center.svg";
+  const imageUrl = "/images/control-center.svg";
 
   const features = [
     { icon: Search, label: "Smart Search", color: "text-blue-500", bgColor: "bg-blue-50" },

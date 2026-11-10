@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteUrl = 'https://damarmv.github.io/Indotech';
+const siteUrl = 'https://indotechbangga.com';
 const previewImage = `${siteUrl}/images/cctv-camera.jpg`;
 
 export const metadata: Metadata = {
